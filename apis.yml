@@ -43,7 +43,7 @@ modified: '2026-07-18'
 tags:
 - Company
 - Video
-- Video-on-Demand
+- Video on Demand
 - Streaming
 - Cable
 - Infrastructure
@@ -69,3 +69,9 @@ x-enrichment:
   status: backfilled
   pass: local-v1
   note: backfilled from .gitignore signal + verified work evidence
+common:
+- type: ParentCompany
+  url: https://apis.io/providers/motorola/
+  name: Motorola
+  x-relationship: acquired
+  x-evidence: "The company was acquired by Motorola in 2006 and folded into Motorola's Connected Home / cable video business."
