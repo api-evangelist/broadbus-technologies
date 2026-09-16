@@ -23,13 +23,13 @@ accessModel:
   method: derived
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/broadbus-technologies.png
 name: Broadbus Technologies
-description: Broadbus Technologies was a video-on-demand (VOD) streaming infrastructure company based in
-  Boxborough, Massachusetts. It developed RAM-based VOD streaming server technology (the B-1 server) used by
-  cable operators to deliver on-demand video at scale. The company was acquired by Motorola in 2006 and folded
-  into Motorola's Connected Home / cable video business. It was surfaced as a portfolio company of Battery
-  Ventures and added to the API Evangelist network as a stub. As a defunct hardware and infrastructure vendor
-  with no surviving corporate or developer presence, it exposes no public API, developer portal, documentation,
-  or discoverable web surface to enrich.
+description: Broadbus Technologies was a video-on-demand (VOD) streaming infrastructure company based
+  in Boxborough, Massachusetts. It developed RAM-based VOD streaming server technology (the B-1 server)
+  used by cable operators to deliver on-demand video at scale. The company was acquired by Motorola in
+  2006 and folded into Motorola's Connected Home / cable video business. It was surfaced as a portfolio
+  company of Battery Ventures and added to the API Evangelist network as a stub. As a defunct hardware
+  and infrastructure vendor with no surviving corporate or developer presence, it exposes no public API,
+  developer portal, documentation, or discoverable web surface to enrich.
 url: https://raw.githubusercontent.com/api-evangelist/broadbus-technologies/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -39,7 +39,7 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.23'
 created: '2026-07-17'
-modified: '2026-07-18'
+modified: '2026-09-15'
 tags:
 - Company
 - Video
@@ -74,4 +74,6 @@ common:
   url: https://apis.io/providers/motorola/
   name: Motorola
   x-relationship: acquired
-  x-evidence: "The company was acquired by Motorola in 2006 and folded into Motorola's Connected Home / cable video business."
+  x-evidence: The company was acquired by Motorola in 2006 and folded into Motorola's Connected Home /
+    cable video business.
+x-status: defunct
